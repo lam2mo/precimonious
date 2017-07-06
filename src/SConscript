@@ -51,8 +51,7 @@ env = conf.Finish()
 #
 
 env.AppendUnique(
-    #SHLINKFLAGS='-Wl,--no-undefined',
-    SHLINKFLAGS='-Wl',
+    SHLINKFLAGS='-Wl,--no-undefined',
     LIBS='LLVM-$llvm_version',
     )
 env.MergeFlags('!llvm-config --cxxflags --ldflags')

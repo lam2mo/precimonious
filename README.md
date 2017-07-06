@@ -40,7 +40,7 @@ scons -U test // to run the regression test
 * Go inside _examples_ folder, take a look at the file funarc.c. This is the target program that we will tune precision on.
 * Compile the program with the following command
 ```
-./compile funarc.c . (remember there is a dot at the end)
+./compile funarc . (remember there is a dot at the end)
 ```
 This will create a bitcode file called funarc.bc, together with some other temporary files.
 ```
