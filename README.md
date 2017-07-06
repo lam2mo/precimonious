@@ -19,12 +19,11 @@ Computing, Networking, Storage and Analysis (SC'13) in November 2013.
 ../llvm/configure --enable-shared
 make
 ```
-* Set the following environment variable.
+* Edit `LLVM_PATH` in `setup_env.sh` to point to your LLVM build folder, and
+then source the script to set the appropriate environment variables (this
+assumes you are using bash--adjust appropriately for other shells):
 ```
-CORVETTE_PATH=path/to/precimonious
-LLVM_COMPILER=clang
-LD_LIBRARY_PATH=path/to/llvm/Release/lib
-PATH=$PATH:path/to/llvm/Release/bin
+source setup_env.sh
 ```
 
 ### Instruction

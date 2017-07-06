@@ -43,7 +43,6 @@ env = Environment(
     )
 
 env.PrependENVPath('PATH', [
-        '/home/rubio/build-llvm/Release/bin',
         '/usr/local/bin',
         '/opt/local/bin',
         '/unsup/ocaml/bin',
