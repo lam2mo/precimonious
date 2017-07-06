@@ -1,0 +1,4 @@
+# Precimonious files
+*.bc
+*.cov
+*.passed

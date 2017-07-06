@@ -1,0 +1,9 @@
+# Precimonious files
+*.bc
+*.cov
+*_config_*.json
+config_temp.json
+log.dd
+output.txt
+dd2_diff_funarc.bc.json
+dd2_valid_funarc.bc.json
