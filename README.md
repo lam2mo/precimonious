@@ -14,7 +14,7 @@ Computing, Networking, Storage and Analysis (SC'13) in November 2013.
 ## Installation Instruction
 ### Requirement
 * Scons build system. 
-* LLVM 3.0. When building LLVM, use --enable-shared flag.
+* LLVM 3.0 (and clang for tests). When building LLVM, use --enable-shared flag.
 ```
 ../llvm/configure --enable-shared
 make
