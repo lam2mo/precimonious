@@ -53,7 +53,7 @@ This will create a file called spec.cov. This file contains the output and the e
 ```
 * Compile funarc again
 ```
-./compile funarc.c .
+./compile.sh funarc .
 ```
 * Now you can run Precimonious to tune precision of funarc using the following command.
 ```
